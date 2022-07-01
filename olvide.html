@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiFo | Olvide</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="icon" href="build/img/Logo.ico">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cuadro">
+            <h1 class="titulo_pagina">Recuperar mi Cuenta</h1>
+            <p class="descripcion_pagina">Ingrese su Email para Reestablecer su Contraseña</p>
+    
+            <form action="olvide.html" method="POST" class="formulario">
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="correo@correo.com" required>
+                </div> <!--.campo-->
+                <input type="submit" class="submit" value="Enviar Instrucciones">
+            </form>
+            <div class="acciones">
+                <a href="crear.html">¿Aún no tiene Cuenta? Crear Una.</a>
+                <a href="login.html">¿Ya tiene una Cuenta? Acceder.</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
